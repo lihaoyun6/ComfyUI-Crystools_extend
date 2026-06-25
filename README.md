@@ -11,6 +11,7 @@ Feature extension package for **[ComfyUI-Crystools](https://github.com/crystian/
 cd ComfyUI/custom_nodes
 git clone https://github.com/lihaoyun6/ComfyUI-Crystools_extend.git
 ```
+⚠️You must install **[ComfyUI-Crystools](https://github.com/crystian/ComfyUI-Crystools)**  first to use this extension!
 
 ## Usage
 ### Compact Mode:  
