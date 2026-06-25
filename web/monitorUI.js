@@ -184,7 +184,11 @@ app.registerExtension({
                 }
                 
                 const hideValue = app.ui.settings.getSettingValue("Crystools.HideValue");
-                if (hideValue) labelEl.innerText = '';
+                if (hideValue) {
+                    labelEl.dataset.updatingLabel = "true";
+                    labelEl.innerText = '';
+                    labelEl.dataset.updatingLabel = "";
+                }
             }
         }
 
