@@ -48,8 +48,9 @@ app.registerExtension({
             flex-direction: row !important;
             align-items: flex-end !important;
             justify-content: center !important;
+            border-radius: 0 !important; 
             gap: 3px !important;
-            padding: 5px 0;
+            padding: 0;
         }
 
         #crystools-monitors-root .crystools-monitor {
